@@ -13,3 +13,7 @@ to create table script in sql <br>
 # Note
 - fk (foreign key) จะช่วยให้ database มีประสิทธิ์ภาพมากขึ้น แต่ก็แลกมาด้วยความจุกจิก
 - pk ทำให้ยืนยันได้ว่า ในตารางนั้นๆ entity ที่ set pk ไว้จะต้องไม่ซ้ำกัน เช่น id
+
+# Demo
+output จากการ run <br>
+![sensor-db](https://cdn.discordapp.com/attachments/1067458504014708767/1117135491884662945/sensor-db.png)
