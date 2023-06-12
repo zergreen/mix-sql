@@ -14,6 +14,14 @@ to create table script in sql <br>
 - fk (foreign key) จะช่วยให้ database มีประสิทธิ์ภาพมากขึ้น แต่ก็แลกมาด้วยความจุกจิก
 - pk ทำให้ยืนยันได้ว่า ในตารางนั้นๆ entity ที่ set pk ไว้จะต้องไม่ซ้ำกัน เช่น id
 
+# CSV to Database
+*เป็นการ insert ข้อมูล ลง database เท่านั้น <br>
+สร้างตารางก่อน ด้วย script [sensor_report.sql] <br>
+จากนั้น run python ด้วย
+```python main.py ```
+กลับไปดูที่ database จะเห็นว่า ข้อมูลได้ทำการเพิ่มเข้ามาแล้ว
+![sensor_report](https://cdn.discordapp.com/attachments/1091751514646777887/1117788910781730936/image.png)
+
 # Demo
 output จากการ run <br>
 ![sensor-db](https://cdn.discordapp.com/attachments/1067458504014708767/1117135491884662945/sensor-db.png)
