@@ -19,7 +19,7 @@ df = pd.read_csv('full_dataset_python.csv')
 for _, row in df.iterrows():
 
     # Extract values from the current row if have comma and space
-    sensor_name = row['sensor_name'].replace(' ', '').replace(',', '')
+    sensor_name = row['sensor_name']
 
     # Extract values from the current row
     sensor_type = row['sensor_type']
