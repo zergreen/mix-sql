@@ -8,8 +8,8 @@ CREATE TABLE SensorReport (
 	first_name varchar(255),
 	last_name varchar(255),
 	email varchar(255),
-	telephone int,
-	employee_code int,
+	telephone varchar(255),
+	employee_code varchar(255),
 	position varchar(255),
 	department varchar(255)
 )
@@ -20,6 +20,6 @@ CREATE TABLE SensorReport (
 DROP TABLE SensorReport
 
 INSERT INTO SensorReport
-VALUES (Null,'motion detection sensor','-','คันนายาว','ปลวกแดง','Aka','วัชรารัตน์','อรุณรัตน์','test@gmail.com',897951101,29572,'เขตดุสิต','เขตวังทองหลาง');
+VALUES (Null,'motion detection sensor','-','คันนายาว','ปลวกแดง','Aka','วัชรารัตน์','อรุณรัตน์','test@gmail.com','897951101','29572','เขตดุสิต','เขตวังทองหลาง');
 
 SELECT * FROM SensorReport;
