@@ -16,6 +16,12 @@ to create table script in sql <br>
 
 # CSV to Database
 *เป็นการ insert ข้อมูล ลง database เท่านั้น <br>
+**สิ่งที่ต้องมีก่อนการ run ได้แก่ 
+
+>sql : sensor_report.sql <br>
+python: main.py <br>
+csv: full_dataset_python.csv
+
 สร้างตารางก่อน ด้วย script [sensor_report.sql] <br>
 จากนั้น run python ด้วย
 ```python main.py ```
